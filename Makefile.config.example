@@ -1,0 +1,7 @@
+CUDA_ROOT := /usr/local/cuda-9.0
+CUDNN_ROOT := /opt/cudnn-7.0
+NCCL_ROOT := /opt/nccl-2.0.4
+OPENCV_ROOT := /opt/opencv-2.4
+NVCC_CUDA_ARCHS := -gencode arch=compute_60,code=sm_60 \
+                   -gencode arch=compute_61,code=sm_61 \
+                   -gencode arch=compute_70,code=sm_70
