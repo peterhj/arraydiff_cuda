@@ -1,7 +1,7 @@
 # arraydiff_cuda
 
 <code>arraydiff_cuda</code> is a prototype autodiff framework. Its main feature
-is a preliminary implementation of <emph>spatially parallel convolutions</emph>,
+is a preliminary implementation of <em>spatially parallel convolutions</em>,
 described in this report: (https://openreview.net/forum?id=S1Yt0d1vG).
 
 Note that more up-to-date halo/ring kernels have since been implemented; c.f.
